@@ -4,7 +4,7 @@ import { getCurrentModel } from './models.js';
 import { searchDuckDuckGo, needsWebSearch } from './web-search.js';
 
 const API_KEY = 'ddc-a4f-d050829fd1f3437fbb6ca2dce414467a';
-const API_URL = 'https://www.a4f.co/api/v1/completions';
+const API_URL = 'https://api.a4f.co/v1/chat/completions';
 
 // DOM Elements
 const messagesContainer = document.getElementById('messages-container');
